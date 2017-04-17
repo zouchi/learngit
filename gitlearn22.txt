@@ -15,4 +15,4 @@ git branch ok
 
 6.
 stash
->>>>>>> Stashed changes
+
