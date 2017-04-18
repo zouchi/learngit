@@ -15,4 +15,6 @@ git branch ok
 
 6.
 stash
+7.
+git home
 
