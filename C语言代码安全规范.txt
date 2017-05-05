@@ -1,0 +1,614 @@
+
+ 
+
+MISRA（The Motor Industry Software Reliability Association 汽车工业软件可靠性协会）
+
+MISRA是汽车工业C语言编程指导，是目前公认的最优秀的嵌入式C语言的编码规范，在航空/航天、汽车、医疗、船舶、电信等对软件安全性要求比较高的行业得到了广泛的应用。
+
+在1998年版的基础上，MISRA组织最新发布了MISRA-C:2004
+
+MISRA-C:2004包括141条规则，其中121条是强制（Required）遵守的，20条是建议（Advisory)遵守的。MISRA官方网站：www.misra.org.uk
+
+MISRA规则的详细内容需要购买，印刷版本价格$76，电子版本（PDF）价格£10.
+
+全部141条规则的中英文对照如下，请参考。在以后的日子里，我还会陆续写一些文章，来介绍某些规则的必要性。
+
+1
+
+1.1    所有代码必须符合ISO 9899:1990标准（C 编程语言标准）。
+
+All code shall conform to ISO 9899:1990 'Programming languages - C';
+
+1.2    软件不可依靠未定义或未指明的行为。（未指明的行为会产生不可靠性）
+
+No reliance shall be placed on undefined or unspecified behaviour;
+
+1.3    只有当目标代码的一般定义界面标准和语言/编译器/汇编器相一致的时候才能使用多种编译器和/或多种语言。
+
+Multiple compilers and/or languages shall only be used if there is a common defined interface standard for object code to which the language/compilers/assemblers conform;
+
+1.4    编译器、连接器和标识符不能支持超过31个字符的有效性。
+
+The compiler/linker/Identifiers (internal and external) shall not rely on significance of more than 31 characters.;  
+
+1.5    浮点执行应该符合明确的浮点标准。
+
+Floating point implementations should comply with a defined floating point standard;
+
+2
+
+2.1 应该封装并隔离汇编语言。
+
+Assembly language shall be encapsulated and isolated;
+
+2.2 在源代码中应该只使用‘/* ... */’的注释风格。
+
+Source code shall only use /* ... */ style comments;
+
+2.3 在注释中不可以使用‘/*’。
+
+The character sequence /* shall not be used within a comment;
+
+2.4 不可以注释掉部分代码。
+
+Sections of code should not be 'commented out';
+
+3
+
+2.1    必须记录所有与使用执行定义程序有关的行为。
+
+All usage of implementation-defined behaviour shall be documented;
+
+2.2    必须记录字符集与其编码。
+
+The character set and the corresponding encoding shall be documented;
+
+2.3    应该确定、记录并考虑选定编译器中的整数除法。
+
+The implementation of integer division in the chosen compiler should be determined, documented and taken into account.;
+
+2.4    必须记录并解译所有‘#pragma’指示的使用。
+
+All uses of the #pragma directive shall be documented and explained.;
+
+2.5    如果代码使用位域，则必须纪录位段的执行定义行为与位段的组装。
+
+The implementation-defined behaviour and packing of bitfields shall be documented if being relied upon;
+
+2.6    所有执行代码使用的程序库必须符合本文件的规定，并必须经过适当的确认。
+
+All libraries used in production code shall be written to comply with the provisions of this document, and shall have been subject to appropriate validation.;
+
+4
+
+4.1 只可使用国际标准化组织（ISO） C语言标准定义的转义-序列。
+
+Only those escape sequences which are defined in the ISO C standard shall be used.;
+
+3.2    不可使用三符组（??x）。
+
+Trigraphs shall not be used.;
+
+5
+
+5.1 内外标识符不能支持超过31个字符的有效性。
+
+Identifiers (internal and external) shall not rely on the significance of more than 31 characters;  
+
+5.2 内层范围标识符不可与外层范围标识符同名，否则会屏蔽那个标识符。
+
+Identifiers in an inner scope shall not use the same name as an identifier in an outer scope, and therefore hide that identifier.;
+
+5.3 ‘Typedef’的名字必须使用唯一的标识符。
+
+A typedef name shall be a unique identifier.;
+
+5.4一个标记符只能用于唯一的标识符。
+
+A tag name shall be a unique identifier;
+
+5.5 不应该重用带有静态存储的对象或函数标识符。
+
+No object or function identifier with static storage duration should be reused;
+
+5.6 一个名字空间的标识符不可以与别的名字空间的标识符同名，结构体和联合体的成员名除外。
+
+No identifier in one name space should have the same spelling as an identifier in another name space, with the exception of structure and union member names;
+
+5.7 标识符名字不可以重用。
+
+No identifier name should be reused;
+
+6
+
+6.1 “char”型的变量只能用于字符值的存储和使用。
+
+The type char shall be used only for storage and use of character values;
+
+6.2 有符号和无符号的“char”型变量只能用于数值的存储和使用。
+
+Signed and unsigned char type shall be used only for the storage and use of numeric values;
+
+6.3 基本类型应该用指示大小和有无符号的typedef来代替。
+
+Typedefs that indicate size and signedness should be used in place of the basic types;
+
+6.4 位域只能被定义为无符号整型或有符号整型。
+
+Bit fields shall only be defined to be of type unsigned int or signed int.;
+
+6.5 使用有符号整型的位域的大小必须至少是2位。
+
+Bit fields of type signed int shall be at least 2 bits long.;
+
+7  
+
+7.1 不要使用“零”以外的八进制常量与八进制的转义序列（octal escape sequence)。
+
+Octal constants (other than zero) and octal escape sequences shall not be used.;
+
+8  
+
+8.1 函数必须有原型声明，原型对于函数的定义和调用必须是可见的。
+
+Functions shall have prototype declarations and the prototype shall be visible at both the function definition and call.;
+
+8.2 当声明或定义对象或函数的时候，必须明确规定它的类型。
+
+Whenever an object or function is declared or defined, its type shall be explicitly stated;
+
+8.3   对于每个函数的参数来说，声明和定义中给出的类型必须一致，返回类型也必须一致。For each function parameter the type given in the declaration and definition shall be identical, and the return types shall also be identical.;
+
+8.4   如果对象或函数被生命多次，类型必须是兼容的。
+
+If objects or functions are declared more than once their types shall be compatible.;
+
+8.5   在头文件中不能有对象或函数的声明。
+
+There shall be no definitions of objects or functions in a header file;
+
+8.6   函数必须在文件范围内声明。
+
+Functions shall always be declared at file scope.;
+
+8.7   如果对象只在单个函数中被访问，那么它们必须在程序块中定义。
+
+Objects shall be defined at block scope if they are only accessed from within a single function;
+
+8.8   外部对象或外部函数只可以在一个文件中定义， 并且只能在一个文件中定义。
+
+An external object or function shall be declared in one file and only one file;
+
+8.9   有外部链接的标识符必须只有一个外部定义。
+
+An identifier with external linkage shall have exactly one external definition.;
+
+8.10  所有文件范围的对象或函数声明都必须有内部链接，除非必需外部链接。
+
+All declarations and definitions of objects or functions at file scope shall have internal linkage unless external linkage is required;
+
+8.11  在有内部链接的对象和函数的定义和声明中必须使用静态存储类说明符。
+
+The static storage class specifier shall be used in definitions and  declarations of objects and functions that have internal linkage;
+
+8.12  当声明一个有外部链接的数组时，必须通过初始化明确规定或隐式定义它的大小。When an array is declared with external linkage, its size shall be stated explicitly or defined implicitly by initialisation;
+
+9
+
+9.1 所有自动变量在使用前必须配值。
+
+All automatic variables shall have been assigned a value before being used.;
+
+9.2 在结构体与数组非零的初始化中，必须使用花括号来指示和匹配结构。
+
+Braces shall be used to indicate and match the structure in the non-zero initialization of arrays and structures.;
+
+9.3 在枚举表中，不可以用'='结构来明确初始化除第一个成员以外的其他成员，除非所有条目都被明确初始化。
+
+In an enumerator list, the '=' construct shall not be used to explicitly initialise members other than the first, unless all items are explicitly initialised.;   
+
+10
+
+10.1 整数类型表达式的值不可以被隐式地转换为别的基本类型。
+
+The value of an expression of integer type shall not be implicitly converted to a different underlying type;
+
+10.2        浮点类型表达式的值不可以被隐式地转换为别的类型。
+
+The value of an expression of floating type shall not be implicitly converted to a different type;
+
+10.3        整数类型的复杂表达式的值只可能被转换为比它更有限的具有和表达式的基本类型相同符号的类型。
+
+The value of a complex expression of integer type may only be cast to a type that is narrower and of the same signedness as the underlying type of the expression;
+
+10.4        浮点类型的复杂表达式的值只可以被转换为比其更有限的浮点类型。
+
+The value of a complex expression of float type may only be cast to narrower floating type;
+
+10.5        如果位操作符'~'和'<<'应用于基本类型无符号字符型或无符号短整型的操作数，结果会立即转换成操作数的基本类型。
+
+If the bitwise operator ~ and << are applied to an operand of underlying type unsigned char or unsigned short, the result shall be immediatly cast to the underlying type of the operand;
+
+10.6        无符号类型的所有常量都必须加上后缀'U'。
+
+The 'U' suffix shall be applied to all constants of unsigned types; 
+
+11
+
+11.1 指向函数的指针不能转换成除整型以外的任何其他类型。
+
+Conversion shall not be performed between a pointer to a function and any type other than an integral type;
+
+11.2 指向对象的指针不能转换成除整型、另一个指向对象的指针或指向void的指针以外的任何其他指针。
+
+Conversion shall not be performed between a pointer to an object and any type other than an integral type, another pointer to a object type or a pointer to void;
+
+11.3 不可以进行指针类型和整数类型之间的类型转换。
+
+A cast should not be performed between a pointer type and an integral type;
+
+11.4 不可以进行一对象指针和另一对象之间的类型转换。
+
+A cast should not be performed between a pointer to object type and a different pointer to object type;  
+
+11.5 不可以进行从通过指针访问的类型中移除任何不变或可变限定条件的转换。
+
+A cast shall not be performed that removes any const or volatile qualification from the type addressed by a pointer;
+
+12
+
+12.1    在表达式中，C操作符的优先规则应该设置限制相关性。
+
+Limited dependence should be placed on C's operator precedence rules in expressions.;
+
+12.2    在标准允许的任何赋值顺序下表达式的值都必须相等。
+
+The value of an expression shall be the same under any order of evaluation that the standard permits.;
+
+12.3    含有副作用的表达式中应该不使用sizeof操作符。
+
+The sizeof operator should not be used on expressions that contain side effects.;
+
+12.4    逻辑'&&'或逻辑'||'操作符的右操作数不能含有副作用。
+
+The right hand operand of a logical && or || operator shall not contain side effects.;            
+
+12.5    逻辑‘&&’ 或 ‘||’ 的操作数必须是基本表达式。
+
+The operands of a logical && or || shall be primary-expressions.;
+
+12.6    逻辑操作符(&&,||和!)的操作数应该是有效的布尔变量。有效的布尔表达式不可以被作为除了(&&,||和!)以外的其他操作符的操作数来使用。
+
+The operands of a logical operators (&&, || and !) should be effectively Boolean. Expressions that are effectively Boolean should not be used as operands to operators other than  (&&, || and !).;
+
+12.7    位操作符不能应用于基本类型是有符号类型的操作数。
+
+Bitwise operators shall not be applied to operands whose underlying type is signed;
+
+12.8    位移操作符的右操作数必须间于零和一个比左操作数的基本类型的位宽更小的数之间。
+
+The right hand operand of a shift operator shall lie between zero and one less than the width in bits of the underlying type of the left hand operand.;
+
+12.9    一元减法操作符不可以被应用于基本类型为无符号型的表达式。
+
+The unary minus operator shall not be applied to an expression whose underlying type is unsigned.;
+
+12.10  不可以使用逗号操作符。
+
+The comma operator shall not be used.; 
+
+12.11 无符号整型常量表达式的赋值不应该导致回转。
+
+Evaluation of constant unsigned integer expressions should not lead to wrap-around.;
+
+12.12  不可以用浮点值的基本比特表示法。
+
+The underlying bit representations of floating-point values shall not be used.;
+
+12.13 在表达式中递增(++)和递减(--)操作符不能与其他操作符混合使用。
+
+The increment (++) and decrement (--) operators should not be mixed with other operators in an expression; 
+
+13
+
+13.1 在产生布尔值的表达式中不能使用赋值操作符。
+
+Assignment operators shall not be used in expressions that yield a Boolean value.;
+
+13.2 除非操作数是有效布尔变量，否则应该明确测试这个值为非零值。
+
+Tests of a value against zero should be made explicit, unless the operand is effectively Boolean;
+
+13.3 浮点表达式不能用相等或不相等来测试。
+
+Floating-point expressions shall not be tested for equality or inequality.;
+
+13.4 一个‘for’语句的控制表达式不可以包含浮点类型的对象。
+
+The controlling expression of a for statement shall not contain any objects of floating type;
+
+13.5 'for'语句的三个表达式只能用于循环控制。
+
+The three expressions of a for statement shall be concerned only with loop control;
+
+13.6 用于迭代计数的for循环内使用的数值变量不应该在循环体内修改。
+
+Numeric variables being used within a for loop for iteration counting should not be modified in the body of the loop.;
+
+13.7 不允许结果不变的布尔操作。
+
+Boolean operations whose results are invariant shall not be permitted";  
+
+14
+
+14.1 不可以存在不能到达的代码。
+
+There shall be no unreachable code.;
+
+14.2 所有的非空语句，要么不管如何执行都会至少产生一个副作用或者导致控制流的改变。All non-null statements shall either have at least one side effect however executed or cause control flow to change;
+
+14.3 在预处理之前，空语句只能自己单独出现在一行；假如跟在空语句后面的第一个字符是空格符的话后面可以跟一个注释。
+
+Before preprocessing, a null statement shall only occur on a line by itself; it may be followed by a comment provided that the first character following the null statement is white-space character;
+
+14.4 不可使用‘goto’语句。
+
+The goto statement shall not be used.;
+
+14.5 不可使用‘continue’语句。
+
+The continue statement shall not be used.;
+
+14.6 任何迭代语句最多只能有一个break语句用来终止循环。
+
+For any iteration statement there shall be at most one break statement used for loop termination;
+
+14.7 函数中在函数的结尾必须有一个单独的退出点。
+
+A function shall have a single point of exit at the end of the function;
+
+14.8 构成'switch','while','do...while'或'for'语句的主体的语句必须是复合语句。
+
+The statement forming the body of a switch, while, do ... while or for statement shall be a compound statement;
+
+14.9 'if'表达式结构后面必须跟一个复合语句。'else'关键字后面必须跟一个复合语句或跟另一个'if'语句。
+
+An if (expression) construct shall be followed by a compound statement. The else keyword shall be followed by either a compound statement, or another if statement;
+
+14.10 所有的'if...else if'结构都应该包含一个最终的'else'子句。
+
+All if ... else if constructs should contain a final else clause.; 
+
+15
+
+15.0 ‘switch’语句必须遵守MISRA-C的语法。
+
+A switch statement shall conform to MISRA-C syntax;
+
+15.1 当最内围的复合语句是‘switch’语句的正文时才可以使用‘switch’标记。
+
+A switch label shall only be used when the most closely-enclosing compound statement is the body of a switch statement;
+
+15.2 无条件的‘break’语句将会终止所有非空的‘switch’子句。
+
+An unconditional break statement shall terminate every non-empty switch clause;
+
+15.3 ‘switch’语句的最后子句必须是‘default’子句。
+
+The final clause of a switch statement shall be the default clause;
+
+15.4  'switch'表达式不应该表示有效布尔变量的值。
+
+A switch expression should not represent a value that is effectively Boolean;
+
+15.5 所有‘switch’的语句必须至少有一个‘case’子句。
+
+Every switch statement shall have at least one case clause;
+
+16
+
+16.1 函数不可以使用类型和数量不确定的参数来定义。
+
+Functions shall not be defined with variable numbers of arguments.;  
+
+16.2 函数不可以直接或间接地调用自己。
+
+Functions shall not call themselves, either directly or indirectly.;
+
+16.3 函数的原型声明中所有参数必须有标识符。
+
+Identifiers shall be given for all of the parameters in a function prototype declaration.;
+
+16.4 函数声明与函数定义中的标识符必须一致。
+
+The identifiers used in the declaration and definition of a function shall be identical.;
+
+16.5 无参数的函数必须使用'void'参数类型声明。
+
+Functions with no parameters shall be declared with parameter type void.;  
+
+16.6 传递给函数的参数个数必须跟声明参数个数一致。
+
+The number of arguments passed to a function shall match the number of parameters.; 
+
+16.7 如果函数原型中的指针参数不被用于改变寻址对象，此指针应被声明为指向常量的指针。
+
+A pointer parameter in a function prototype should be declared as pointer to const if the pointer is not used to modify the addressed object.;
+
+16.8 返回类型非void的函数的所有推出路径都必须有明确的带有表达式的return语句。
+
+All exit paths from a function with non-void return type shall have an explicit return statement with an expression.;
+
+16.9 使用函数标识符时必须前面带'&'或者带有一个用'()'括起来的参数表，其中参数表可以为空。
+
+A function identifier shall only be used with either a preceding &, or with a parenthesised parameter list, which may be empty.;
+
+16.10 如果一个函数返回错误的信息，应该测试这个错误的信息。
+
+If a function returns error information, then that error information should be tested.;
+
+17
+
+17.1 指针运算只能应用于指示数组或数组变量地址的指针之间。
+
+Pointer arithmetic shall only be applied to pointers that address an array or array element.;
+
+17.2 指针的减法只能应用于指示同一个数组的元素地址的指针之间。
+
+Pointer subtraction shall only be applied to pointers that address elements of the same array.;
+
+17.3 不可使用‘>’，‘>=’， ‘<’或‘<=’于指针类型， 除非其是指同一数组的指针。>, >=, <, <= shall not be applied to pointer types except where they point to the same array.;  
+
+17.4 只有数组下标的形式允许使用指针运算。
+
+Array indexing shall be the only allowed form of pointer arithmetic.;
+
+17.5 对象声明所包含的间接指针不应该超过2层。
+
+The declaration of objects should contain no more than 2 levels of pointer indirection.;   
+
+17.6 自动存储的对象的地址不能赋给对象终止以后还可能继续存在的对象。
+
+The address of an object with automatic storage shall not be assigned to an object that may persist after the object has ceased to exist.;
+
+18
+
+18.1 所有结构体与联合体类型必须在翻译单位完成。
+
+All structure or union types shall be complete at the end of a translation unit.;
+
+18.2 不可以把对象分配给重叠对象。
+
+An object shall not be assigned to an overlapping object.;
+
+18.3 为了无关的目的不能重用内存空间。
+
+An area of memory shall not be reused for unrelated purposes.; 
+
+18.4 不可使用联合体。
+
+Unions shall not be used;
+
+19
+
+19.1 文件中，在#include语句之前只可使用其他的预处理指令或注释。
+
+#include statements in a file shall only be preceded by other pre-processor directives or comments.;
+
+19.2 在#include指令的头文件名中不应该出现非标准字符。
+
+Non-standard characters should not occur in header file names in #include directives.; 
+
+19.3 #include指令之后必须有<filename>或\"filename\"的序列。
+
+The #include directive shall be followed by either a <filename> or \"filename\" sequence.;
+
+19.4 C语言的宏只可以扩展为使用花括号的一个初始化表达式、一个常量、一个使用圆括号的表达式、一个类型的限定词、一个存储类的说明符或者一个‘do-while-zero’的结构。 C macros shall only expand to a braced initialiser, a constant, a parenthesised expression,a type qualifier, a storage class specifier, or a do-while-zero construct.;
+
+19.5 宏不可以在一个块中被#define和#undef。
+
+Macros shall not be #define'd and #undef'd within a block.;  
+
+19.6 不可使用#undef。
+
+#undef shall not be used.;
+
+19.7 与宏相比应该优先使用函数。
+
+A function should be used in preference to a macro.;
+
+19.8 使用类似函数的宏时必须调用其所有的参数。
+
+A function-like macro shall not be invoked without all of its arguments;
+
+19.9 类似函数宏的参数不可以包含类似预处理指令的标记。
+
+Arguments to a function-like macro shall not contain tokens that look like pre-processing directives.;
+
+19.10 类似函数宏的定义中每个参数的实例必须放在圆括号中， 除非其是‘#’或‘##’的操作数。
+
+In the definition of a function-like macro each instance of a parameter shall be enclosed in parentheses unless it is used as the operand of # or ##.;
+
+19.11 预处理指定中的所有宏标识符都必须在使用前定义，除非在#ifdef和#ifndef预处理指令和define()操作符中。
+
+All macro identifiers in preprocessor directives shall be defined before use, except in #ifdef and #ifndef preprocessor directives and the defined() operator.;
+
+19.12 在一个单一的宏定义中，'#'或'##'预处理操作符最多出现一次。
+
+There shall be at most one occurrence of the # or ## pre-processor operators in a single macro definition.;
+
+19.13 不应该使用‘#’或‘##’预处理操作符。
+
+The # and ## preprocessor operators should not be used.;  
+
+19.14 'define'预处理操作符只可以使用两个标准形式之一。
+
+The defined pre-processor operator shall only be used in one of the two standard forms.;
+
+19.15 必须主意防止一个头文件的内容被include两次。
+
+Precautions shall be taken in order to prevent the contents of a header file being included twice.; 
+
+19.16 即使当预处理指令被预处理程序排斥时，预处理指令也必须在语法上有意义。Preprocessing directives shall be syntactically meaningful even when excluded by the preprocessor.;
+
+19.17 所有的#else,#elif和#endif预处理指令都必须存在于和它们匹配的#if或#ifdef指令相同的文件中。
+
+All #else, #elif and #endif preprocessor directives shall reside in the same file as the #if or #ifdef directive to which they are related.;
+
+20
+
+20.1 不可以定义、重新定义或未下定义标准函数库中的保留标识符、宏与函数。
+
+Reserved identifiers, macros and functions in the standard library, shall not be defined, redefined or undefined.;
+
+20.2 不可以重用标准库中的宏、对象和函数。
+
+The names of standard library macros, objects and functions shall not be reused.;  
+
+20.3 必须检查传递给库函数的值的有效性。
+
+The validity of values passed to library functions shall be checked.;
+
+20.4 不可使用动态堆的内存分配。
+
+Dynamic heap memory allocation shall not be used.;
+
+20.5 不可使用‘errno’的错误指示。
+
+The error indicator errno shall not be used.;
+
+20.6 不可以使用库<stddef.h>中的宏'offsetof'。
+
+The macro offsetof, in library <stddef.h>, shall not be used.; 
+
+20.7 不可使用‘setjmp’宏与‘longjmp’函数。
+
+The setjmp macro and the longjmp function shall not be used.;
+
+20.8 不可使用<signal.h>的函数库中的信号处理设备。
+
+The signal handling facilities of <signal.h> shall not be used.;
+
+20.9 在执行代码中不可使用输入/输出库<stdio.h>。
+
+The input/output library <stdio.h> shall not be used in production code.;  
+
+20.10 不可使用<stdlib.h>的函数库中的‘atof’,‘atoi’与‘atol’函数。
+
+The library functions atof, atoi and atol from library <stdlib.h> shall not be used.;
+
+20.11 不可使用<stdlib.h>的函数库中的‘abort‘,‘exit’,‘getenv’与‘system’函数。
+
+The library functions abort, exit, getenv and system from library <stdlib.h> shall not be used.;
+
+20.12 不可使用<time.h>的函数库中的时间处理函数。
+
+The time handling functions of library <time.h> shall not be used.;
+
+21
+
+21.1        必须用至少一种工具或技术以保证将运行时错误减到最小限度。
+
+Minimisation of run-time failures shall be ensured by the use of at least one tool/technique;
+
+ 
