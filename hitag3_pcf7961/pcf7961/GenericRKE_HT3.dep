@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2757545475</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\crypt.c</file>
+      <file>$PROJ_DIR$\Debug\List\si.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\si.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\eeprom.r52</file>
+      <file>$PROJ_DIR$\Debug\Obj\rke.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hardware.pbi</file>
+      <file>$PROJ_DIR$\transmit.h</file>
+      <file>$PROJ_DIR$\buttons.c</file>
+      <file>$TOOLKIT_DIR$\inc\io.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\buttons.pbi</file>
+      <file>$PROJ_DIR$\data_dispatch.c</file>
+      <file>$PROJ_DIR$\ee_prom.c</file>
+      <file>$PROJ_DIR$\eeprom.s52</file>
+      <file>$PROJ_DIR$\hardware.c</file>
+      <file>$PROJ_DIR$\hitag3.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\rke.c</file>
+      <file>$PROJ_DIR$\si.c</file>
+      <file>$PROJ_DIR$\timer.c</file>
+      <file>$PROJ_DIR$\transmit.c</file>
+      <file>$PROJ_DIR$\Debug\List\main.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r52</file>
+      <file>$PROJ_DIR$\hitag3.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\GenericRKE_HT3.d52</file>
+      <file>$PROJ_DIR$\Debug\Obj\ee_prom.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\transmit.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\rke.r52</file>
+      <file>$PROJ_DIR$\Debug\Obj\transmit.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\crypt.pbi</file>
+      <file>$PROJ_DIR$\crypt.h</file>
+      <file>$PROJ_DIR$\timer.h</file>
+      <file>$PROJ_DIR$\Debug\List\rke.lst</file>
+      <file>$PROJ_DIR$\ee_prom.h</file>
+      <file>$TOOLKIT_DIR$\lib\clmrkiist.r52</file>
+      <file>$PROJ_DIR$\Debug\Obj\AES128.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\si.r52</file>
+      <file>$PROJ_DIR$\Debug\List\buttons.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\data_dispatch.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\GenericRKE_HT3.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\transmit.r52</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\crypt.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\ee_prom.r52</file>
+      <file>$PROJ_DIR$\data_dispatch.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\data_dispatch.r52</file>
+      <file>$PROJ_DIR$\Debug\List\ee_prom.s52</file>
+      <file>$PROJ_DIR$\Debug\List\hardware.s52</file>
+      <file>$PROJ_DIR$\Debug\List\data_dispatch.s52</file>
+      <file>$PROJ_DIR$\Debug\List\transmit.s52</file>
+      <file>$PROJ_DIR$\Debug\List\buttons.s52</file>
+      <file>$PROJ_DIR$\buttons.h</file>
+      <file>$PROJ_DIR$\Debug\List\hitag3.s52</file>
+      <file>$PROJ_DIR$\Debug\Obj\hardware.r52</file>
+      <file>$TOOLKIT_DIR$\inc\romlib_defines.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioPCF7961.h</file>
+      <file>$PROJ_DIR$\Debug\List\data_dispatch.lst</file>
+      <file>$TOOLKIT_DIR$\inc\romPCF7961X.h</file>
+      <file>$TOOLKIT_DIR$\inc\romPCF7921.h</file>
+      <file>$TOOLKIT_DIR$\config\lnkPCF7961__E.xcl</file>
+      <file>$PROJ_DIR$\Debug\List\timer.s52</file>
+      <file>$PROJ_DIR$\Debug\List\crypt.s52</file>
+      <file>$PROJ_DIR$\Debug\List\rke.s52</file>
+      <file>$PROJ_DIR$\Debug\List\main.s52</file>
+      <file>$PROJ_DIR$\Debug\List\si.s52</file>
+      <file>$PROJ_DIR$\hardware.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.r52</file>
+      <file>$PROJ_DIR$\compile_switch.h</file>
+      <file>$PROJ_DIR$\Debug\List\hitag3.lst</file>
+      <file>$PROJ_DIR$\AES128.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\GenericRKE_HT3.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\hitag3.r52</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\List\eeprom.lst</file>
+      <file>$PROJ_DIR$\AES128.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\AES128.r52</file>
+      <file>$PROJ_DIR$\Debug\List\ee_prom.lst</file>
+      <file>$PROJ_DIR$\rke.h</file>
+      <file>$PROJ_DIR$\Debug\List\timer.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\crypt.r52</file>
+      <file>$PROJ_DIR$\Debug\List\hardware.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\buttons.r52</file>
+      <file>$PROJ_DIR$\si.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hitag3.pbi</file>
+      <file>$PROJ_DIR$\types.h</file>
+      <file>$PROJ_DIR$\romlib_parser.h</file>
+      <file>$TOOLKIT_DIR$\inc\romlib.h</file>
+      <file>$PROJ_DIR$\Debug\List\AES128.lst</file>
+      <file>$PROJ_DIR$\defs.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\crypt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 61 42 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 84 23</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 30 84 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\buttons.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 50 37 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 55 88 44 84 51 31 33</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 9 55 88 44 84 51 31 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\data_dispatch.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 48 56 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 84 88</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 44 84 88</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ee_prom.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 46 76 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 33 84 44 85 86 58 54</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 88 33 84 44 85 86 57 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\eeprom.s52</name>
+      <outputs>
+        <tool>
+          <name>AMRKII</name>
+          <file> 4 73</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\hardware.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 47 80 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 55 31 84 88 65 85 86 58 54</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 9 55 31 84 88 65 85 86 57 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\hitag3.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 52 68 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 23 84 44 85 86 58 54</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 88 23 84 44 85 86 57 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 63 21 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 55 85 86 58 54 88 84 44 65 33 51 77</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 9 55 85 86 57 54 88 84 44 65 33 51 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rke.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 62 32 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 84 77 44 7 82 33 30</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 88 84 77 44 7 82 33 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\si.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 64 1 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 55 88 82 84 44 85 86 58 54</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 9 55 88 82 84 44 85 86 57 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 60 78 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 55 72 88 31 84</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 9 55 72 88 31 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\transmit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 49 26 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 55 88 7 84 44 85 86 58 54 33</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 9 55 88 7 84 44 85 86 57 54 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\GenericRKE_HT3.d52</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 59 81 79 45 43 4 53 71 22 27 36 66 40 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 24 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\GenericRKE_HT3.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 10 29 38 25 6 83 41 5 2 3 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\AES128.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 87 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 67 69 84 33 44</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 88 67 69 84 33 44</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\Release\Obj\ee_prom.r52</file>
+      <file>$PROJ_DIR$\Release\Exe\EROM.hex</file>
+      <file>$PROJ_DIR$\Release\Obj\buttons.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\rke.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\hitag3.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\eeprom.hex</file>
+      <file>$PROJ_DIR$\Release\Obj\transmit.r52</file>
+      <file>$PROJ_DIR$\Release\Obj\hitag3.r52</file>
+      <file>$PROJ_DIR$\Release\Obj\buttons.r52</file>
+      <file>$PROJ_DIR$\Release\Obj\GenericRKE_HT3.pbd</file>
+      <file>$PROJ_DIR$\Release\Obj\main.r52</file>
+      <file>$PROJ_DIR$\Release\Obj\transmit.pbi</file>
+      <file>$PROJ_DIR$\Release\List\eeprom.lst</file>
+      <file>$PROJ_DIR$\Release\Obj\si.r52</file>
+      <file>$PROJ_DIR$\Release\Obj\eeprom.r52</file>
+      <file>$PROJ_DIR$\Release\Obj\hardware.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\rke.r52</file>
+      <file>$PROJ_DIR$\crypt.c</file>
+      <file>$PROJ_DIR$\transmit.h</file>
+      <file>$PROJ_DIR$\buttons.c</file>
+      <file>$TOOLKIT_DIR$\inc\io.h</file>
+      <file>$PROJ_DIR$\data_dispatch.c</file>
+      <file>$PROJ_DIR$\ee_prom.c</file>
+      <file>$PROJ_DIR$\eeprom.s52</file>
+      <file>$PROJ_DIR$\hardware.c</file>
+      <file>$PROJ_DIR$\hitag3.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\rke.c</file>
+      <file>$PROJ_DIR$\si.c</file>
+      <file>$PROJ_DIR$\timer.c</file>
+      <file>$PROJ_DIR$\transmit.c</file>
+      <file>$PROJ_DIR$\hitag3.h</file>
+      <file>$PROJ_DIR$\crypt.h</file>
+      <file>$PROJ_DIR$\timer.h</file>
+      <file>$PROJ_DIR$\ee_prom.h</file>
+      <file>$TOOLKIT_DIR$\lib\clmrkiist.r52</file>
+      <file>$PROJ_DIR$\data_dispatch.h</file>
+      <file>$PROJ_DIR$\Release\Obj\ee_prom.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\si.pbi</file>
+      <file>$PROJ_DIR$\Release\List\GenericRKE_HT3.map</file>
+      <file>$PROJ_DIR$\buttons.h</file>
+      <file>$PROJ_DIR$\Release\Obj\data_dispatch.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\crypt.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\crypt.r52</file>
+      <file>$PROJ_DIR$\Release\Obj\hardware.r52</file>
+      <file>$PROJ_DIR$\Release\Obj\data_dispatch.r52</file>
+      <file>$PROJ_DIR$\Release\Exe\GenericRKE_HT3.d52</file>
+      <file>$PROJ_DIR$\Release\Obj\timer.r52</file>
+      <file>$TOOLKIT_DIR$\inc\romlib_defines.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioPCF7961.h</file>
+      <file>$TOOLKIT_DIR$\inc\romPCF7961X.h</file>
+      <file>$TOOLKIT_DIR$\inc\romPCF7921.h</file>
+      <file>$TOOLKIT_DIR$\config\lnkPCF7961__E.xcl</file>
+      <file>$PROJ_DIR$\hardware.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\rke.h</file>
+      <file>$PROJ_DIR$\si.h</file>
+      <file>$PROJ_DIR$\types.h</file>
+      <file>$PROJ_DIR$\romlib_parser.h</file>
+      <file>$TOOLKIT_DIR$\inc\romlib.h</file>
+      <file>$PROJ_DIR$\defs.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\GenericRKE_HT3.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 2 44 43 38 16 5 4 3 40 39 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\crypt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 59 32</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 33 59 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\buttons.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 51 62 37 59 42 34 35</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 21 51 62 37 59 42 34 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\data_dispatch.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 59 62</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 37 59 62</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ee_prom.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 35 59 37 60 61 53 50</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 62 35 59 37 60 61 52 50</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\eeprom.s52</name>
+      <outputs>
+        <tool>
+          <name>AMRKII</name>
+          <file> 15 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\hardware.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 51 34 59 62 55 60 61 53 50</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 21 51 34 59 62 55 60 61 52 50</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\hitag3.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 32 59 37 60 61 53 50</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 62 32 59 37 60 61 52 50</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 51 60 61 53 50 62 59 37 55 35 42 57</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 21 51 60 61 52 50 62 59 37 55 35 42 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rke.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 59 57 37 19 58 35 33</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 62 59 57 37 19 58 35 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\si.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 51 62 58 59 37 60 61 53 50</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 21 51 62 58 59 37 60 61 52 50</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 51 56 62 34 59</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 21 51 56 62 34 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\transmit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 51 62 19 59 37 60 61 53 50 35</file>
+        </tool>
+        <tool>
+          <name>ICCMRKII</name>
+          <file> 21 51 62 19 59 37 60 61 52 50 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 48 41 1 6</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\GenericRKE_HT3.d52</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 41 1 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 54 9 45 47 0 15 46 8 11 17 14 49 7 36</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

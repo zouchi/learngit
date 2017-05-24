@@ -1,0 +1,7 @@
+device PCF7961
+//erase
+verify
+download EROM,EROM.hex
+fill
+download EEPROM,eeprom.hex
+//protect
