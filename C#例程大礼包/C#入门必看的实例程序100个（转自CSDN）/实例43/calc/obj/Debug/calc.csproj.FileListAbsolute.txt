@@ -1,0 +1,6 @@
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例43\calc\obj\Debug\calc.exe
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例43\calc\obj\Debug\calc.pdb
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例43\calc\bin\Debug\calc.exe
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例43\calc\bin\Debug\calc.pdb
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例43\calc\obj\Debug\calc.Calculator1.resources
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例43\calc\obj\Debug\calc.csproj.GenerateResource.Cache

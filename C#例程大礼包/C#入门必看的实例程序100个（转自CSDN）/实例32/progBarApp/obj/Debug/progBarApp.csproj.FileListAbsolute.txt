@@ -1,0 +1,7 @@
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例32\progBarApp\obj\Debug\progBarApp.exe
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例32\progBarApp\obj\Debug\progBarApp.pdb
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例32\progBarApp\bin\Debug\progBarApp.exe
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例32\progBarApp\bin\Debug\progBarApp.pdb
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例32\progBarApp\obj\Debug\progBarApp.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例32\progBarApp\obj\Debug\progBarApp.Form1.resources
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例32\progBarApp\obj\Debug\progBarApp.csproj.GenerateResource.Cache

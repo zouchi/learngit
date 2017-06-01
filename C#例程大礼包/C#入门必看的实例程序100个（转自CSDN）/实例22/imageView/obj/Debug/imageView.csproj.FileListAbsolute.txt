@@ -1,0 +1,7 @@
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例22\imageView\obj\Debug\imageView.exe
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例22\imageView\obj\Debug\imageView.pdb
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例22\imageView\bin\Debug\imageView.exe
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例22\imageView\bin\Debug\imageView.pdb
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例22\imageView\obj\Debug\imageView.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例22\imageView\obj\Debug\imageView.Form1.resources
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例22\imageView\obj\Debug\imageView.csproj.GenerateResource.Cache

@@ -1,0 +1,7 @@
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例21\myFirstWinApp\obj\Debug\myFirstWinApp.exe
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例21\myFirstWinApp\obj\Debug\myFirstWinApp.pdb
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例21\myFirstWinApp\bin\Debug\myFirstWinApp.exe
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例21\myFirstWinApp\bin\Debug\myFirstWinApp.pdb
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例21\myFirstWinApp\obj\Debug\myFirstWinApp.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例21\myFirstWinApp\obj\Debug\myFirstWinApp.Form1.resources
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例21\myFirstWinApp\obj\Debug\myFirstWinApp.csproj.GenerateResource.Cache

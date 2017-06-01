@@ -1,0 +1,8 @@
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例23\catchMe\bin\Debug\catchMe.exe.config
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例23\catchMe\obj\Debug\catchMe.exe
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例23\catchMe\obj\Debug\catchMe.pdb
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例23\catchMe\bin\Debug\catchMe.exe
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例23\catchMe\bin\Debug\catchMe.pdb
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例23\catchMe\obj\Debug\catchMe.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例23\catchMe\obj\Debug\catchMe.Form1.resources
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例23\catchMe\obj\Debug\catchMe.csproj.GenerateResource.Cache

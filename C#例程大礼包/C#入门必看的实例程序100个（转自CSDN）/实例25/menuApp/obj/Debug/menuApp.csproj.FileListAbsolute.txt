@@ -1,0 +1,7 @@
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例25\menuApp\obj\Debug\menuApp.exe
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例25\menuApp\obj\Debug\menuApp.pdb
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例25\menuApp\bin\Debug\menuApp.exe
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例25\menuApp\bin\Debug\menuApp.pdb
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例25\menuApp\obj\Debug\menuApp.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例25\menuApp\obj\Debug\menuApp.Form1.resources
+C:\Users\dell\Desktop\C#例程大礼包\C#入门必看的实例程序100个（转自CSDN）\实例25\menuApp\obj\Debug\menuApp.csproj.GenerateResource.Cache
